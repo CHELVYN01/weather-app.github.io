@@ -61,7 +61,7 @@ body {
   height: 2rem;
   margin-left: 1rem;
   padding-right: 44%;
-  /* background-color: #1379a5; */
+  background-color: #1379a5;
   background: none;
 }
 
@@ -224,7 +224,7 @@ body {
   .search .form .input input {
     font-size: 0.5rem;
     margin-left: 0.5rem;
-    padding-right: 22%;
+    padding-right: 44%;
   }
 
   .search .form .input .bx {
