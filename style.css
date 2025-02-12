@@ -1,0 +1,203 @@
+:root {
+  --bg-gradient: linear-gradient(115deg, #18249e 12.97%, #1379a5 85.77%);
+  --font-primary: "Inter", serif;
+  --font-secondary: "League Gothic", serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--bg-gradient); /* Perbaikan di sini */
+  color: #fff;
+  height: 100vh;
+}
+
+#search_frame {
+  /* background-color: #1379a5; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search .form label {
+  /* background-color: #1379a5; */
+  font-family: var(--font-secondary);
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: block;
+  text-align: center;
+}
+
+.search .form .input {
+  display: flex;
+  align-items: center;
+  width: 30.6875rem;
+  height: 2.59456rem;
+  flex-shrink: 0;
+  outline: none;
+  border: 0px solid transparent; /* Agar tidak ada border bawaan */
+  border-radius: 3rem;
+  background: linear-gradient(90deg, #fff 0%, #f1c8ff 100%);
+}
+.search .form .input input {
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-family: var(--font-primary);
+  font-weight: 500;
+  width: auto;
+  height: 2rem;
+  margin-left: 1rem;
+  padding-right: 44%;
+  /* background-color: #1379a5; */
+  background: none;
+}
+
+.search .form .input .bx {
+  /* background-color: #18249e; */
+
+  font-size: 2rem; /* Ukuran ikon */
+  color: #555;
+  cursor: pointer;
+}
+.search .deskripsi {
+  /* background-color: #18249e; */
+  width: 20.75rem;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+/* animasih */
+#search_frame,
+#weather_frame {
+  transition: opacity 0.5s ease-in-out;
+}
+
+#weather_frame {
+  display: none;
+  opacity: 1;
+}
+
+/* Container utama */
+#weather_container {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Judul "cuaca" */
+#weather-title {
+  font-family: "League Gothic", sans-serif;
+  font-size: 48px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Kartu hasil cuaca */
+#weather-card {
+  border-radius: 2.3125rem; /* Membuat sudut melengkung */
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.07) 0%,
+    rgba(241, 200, 255, 0.43) 100%
+  );
+  padding: 20px;
+  text-align: center;
+  backdrop-filter: blur(10px);
+  width: 450px; /* Sedikit lebih lebar agar lebih nyaman */
+  max-width: 100%;
+  box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.1); /* Efek bayangan agar tampak lebih elegan */
+}
+
+/* Label "Hari Ini" */
+#day-label {
+  font-family: var(--font-primary);
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Deskripsi cuaca */
+#weather-description {
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Ikon cuaca utama */
+#weather-icon {
+  width: 11rem; /* Perbesar sesuai keinginan */
+  height: 11rem;
+  flex-shrink: 0;
+}
+
+/* Suhu utama */
+#temperature {
+  font-family: var(--font-primary);
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.location {
+  margin-top: 40px;
+  font-family: var(--font-primary);
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.provinsi {
+  /* margin-top: 40px; */
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Prakiraan cuaca 3 hari ke depan */
+#forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+#forecast p {
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.forecast-day {
+  text-align: center;
+}
+
+.forecast-day img {
+  width: 5rem;
+  height: 5rem;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Gothic&display=swap"
+      rel="stylesheet"
+    />
+    <!-- end -->
+    <!-- icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- end -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="hero" id="search_frame">
+      <main class="search">
+        <form action="" class="form">
+          <label for="">cuaca</label>
+          <div class="input">
+            <input type="text" />
+            <i class="bx bx-search"></i>
+          </div>
+        </form>
+        <p class="deskripsi">
+          masukan nama tempat yang ingin anda tampilkan cuaca nya
+        </p>
+      </main>
+    </section>
+
+    <section id="weather_frame" style="display: none">
+      <main id="weather_container">
+        <div id="weather-card">
+          <h2 id="day-label">Hari ini</h2>
+          <p id="weather-description"></p>
+          <img id="weather-icon" src="" alt="Weather Icon" />
+          <h1 id="temperature"></h1>
+
+          <h2 class="location"></h2>
+          <p class="provinsi"></p>
+
+          <div id="forecast">
+            <div class="forecast-day">
+              <p>Senin</p>
+              <img src="" alt="Icon" />
+              <p>--°</p>
+            </div>
+            <div class="forecast-day">
+              <p>Selasa</p>
+              <img src="" alt="Icon" />
+              <p>--°</p>
+            </div>
+            <div class="forecast-day">
+              <p>Rabu</p>
+              <img src="" alt="Icon" />
+              <p>--°</p>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+  </body>
+  <script src="js/config.js"></script>
+  <script src="js/script.js"></script>
+</html>
