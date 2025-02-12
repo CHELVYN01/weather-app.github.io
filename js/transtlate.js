@@ -1,0 +1,17 @@
+const weatherTranslations = {
+  Clear: "Cerah",
+  "Partly cloudy": "Berawan sebagian",
+  Cloudy: "Mendung",
+  Overcast: "Mendung tebal",
+  Mist: "Berkabut",
+  "Patchy rain nearby": "Hujan ringan di sekitar",
+  "Light rain shower": "Hujan ringan",
+  "Moderate rain": "Hujan sedang",
+  "Heavy rain": "Hujan lebat",
+  Thunderstorm: "Badai petir",
+  Snow: "Salju",
+  Fog: "Kabut",
+  Sunny: "Cerah",
+  "Light drizzle": "Gerimis ringan",
+  "Moderate or heavy rain with thunder": "Hujan lebat dengan petir",
+};
