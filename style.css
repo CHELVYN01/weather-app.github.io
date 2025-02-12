@@ -201,3 +201,130 @@ body {
   width: 5rem;
   height: 5rem;
 }
+
+/* Tablet (max-width: 768px) dan HP (max-width: 480px) */
+@media screen and (max-width: 768px) {
+  /* Frame pencarian */
+  #search_frame {
+    height: 100vh;
+  }
+
+  /* Label "cuaca" di halaman pencarian */
+  .search .form label {
+    font-size: 48px; /* Setengah dari ukuran aslinya */
+  }
+
+  /* Input pencarian */
+  .search .form .input {
+    width: 15.34375rem; /* Setengah dari ukuran aslinya */
+    height: 1.29728rem;
+    border-radius: 1.5rem;
+  }
+
+  .search .form .input input {
+    font-size: 0.5rem;
+    margin-left: 0.5rem;
+    padding-right: 22%;
+  }
+
+  .search .form .input .bx {
+    font-size: 1rem; /* Setengah dari ukuran aslinya */
+  }
+
+  .search .deskripsi {
+    width: 10.375rem;
+    font-size: 0.5rem; /* Setengah dari ukuran aslinya */
+    padding-top: 0.25rem;
+  }
+
+  /* Frame cuaca */
+  #weather-card {
+    width: 225px; /* Setengah dari ukuran aslinya */
+    padding: 10px;
+  }
+
+  #day-label {
+    font-size: 1.125rem; /* Setengah dari ukuran aslinya */
+  }
+
+  #weather-description {
+    font-size: 0.75rem; /* Setengah dari ukuran aslinya */
+  }
+
+  #weather-icon {
+    width: 5.5rem; /* Setengah dari ukuran aslinya */
+    height: 5.5rem;
+  }
+
+  #temperature {
+    font-size: 1.5rem; /* Setengah dari ukuran aslinya */
+  }
+
+  .location {
+    font-size: 0.75rem; /* Setengah dari ukuran aslinya */
+    margin-top: 20px;
+  }
+
+  .provinsi {
+    font-size: 0.5rem; /* Setengah dari ukuran aslinya */
+  }
+
+  #forecast {
+    margin-top: 40px; /* Kurangi jarak */
+  }
+
+  #forecast p {
+    font-size: 0.5rem; /* Setengah dari ukuran aslinya */
+  }
+
+  .forecast-day img {
+    width: 2.5rem; /* Setengah dari ukuran aslinya */
+    height: 2.5rem;
+  }
+}
+/* Tablet (max-width: 768px) dan HP (max-width: 480px) */
+@media screen and (max-width: 768px) {
+  #weather-card {
+    width: 225px; /* Setengah dari ukuran aslinya */
+    padding: 10px;
+  }
+
+  #day-label {
+    font-size: 1.125rem; /* Setengah dari ukuran aslinya */
+  }
+
+  #weather-description {
+    font-size: 0.75rem; /* Setengah dari ukuran aslinya */
+  }
+
+  #weather-icon {
+    width: 5.5rem; /* Setengah dari ukuran aslinya */
+    height: 5.5rem;
+  }
+
+  #temperature {
+    font-size: 1.5rem; /* Setengah dari ukuran aslinya */
+  }
+
+  .location {
+    font-size: 0.75rem; /* Setengah dari ukuran aslinya */
+    margin-top: 20px;
+  }
+
+  .provinsi {
+    font-size: 0.5rem; /* Setengah dari ukuran aslinya */
+  }
+
+  #forecast {
+    margin-top: 40px; /* Kurangi jarak */
+  }
+
+  #forecast p {
+    font-size: 0.5rem; /* Setengah dari ukuran aslinya */
+  }
+
+  .forecast-day img {
+    width: 2.5rem; /* Setengah dari ukuran aslinya */
+    height: 2.5rem;
+  }
+}
