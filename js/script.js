@@ -1,4 +1,4 @@
-const apiKey = process.env.API_KEY || "default_key";
+const apiKey = CONFIG.API_KEY;
 const searchInput = document.querySelector(".input input");
 const searchIcon = document.querySelector(".bx-search");
 const searchFrame = document.getElementById("search_frame");
