@@ -31,6 +31,6 @@ Proyek ini dibangun menggunakan teknologi modern berikut:
 Akses aplikasi secara langsung melalui **GitHub Pages**:  
 🔗 **[Weather App - Live](https://chelvyn01.github.io/weather-app.github.io/)**
 
-### **2️⃣ Jalankan Secara Lokal**
-Jika ingin menjalankan di komputer lokal, ikuti langkah berikut:
+
+
 
